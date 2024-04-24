@@ -12,9 +12,9 @@ import static guru.springframework.msscbreweryclient.web.model.client.ClientsPat
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class BreweryClientIntegrationTest {
+class BreweryBeerClientIntegrationTest {
     @Autowired
-    private BreweryClient client;
+    private BreweryBeerClient client;
 
     @Test
     void getBeerById() {

@@ -7,11 +7,10 @@ import org.springframework.boot.web.client.RestTemplateBuilder
 import org.springframework.stereotype.Component
 import java.net.URI
 import java.util.*
-import javax.annotation.PostConstruct
 
 @Component
 @ConfigurationProperties(value = "sfg.brewery")
-open class CustomerClient(restTemplateBuilder: RestTemplateBuilder) {
+open class BreweryCustomerClient(restTemplateBuilder: RestTemplateBuilder) {
     private val restTemplate = restTemplateBuilder.build()
     open var apiHost: String? = null
 

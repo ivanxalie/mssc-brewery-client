@@ -12,7 +12,7 @@ import java.util.*
 @Component
 @ConfigurationProperties(value = "sfg.brewery")
 open class
-BreweryClient(restTemplateBuilder: RestTemplateBuilder) {
+BreweryBeerClient(restTemplateBuilder: RestTemplateBuilder) {
     private val restTemplate = restTemplateBuilder.build()
     open var apiHost: String? = null
 

@@ -10,9 +10,9 @@ import java.net.URI
 import java.util.UUID.randomUUID
 
 @SpringBootTest
-class CustomerClientIntegrationTest {
+class BreweryCustomerClientIntegrationTest {
     @Autowired
-    private var client: CustomerClient? = null
+    private var client: BreweryCustomerClient? = null
 
     @Test
     fun getCustomer() {
