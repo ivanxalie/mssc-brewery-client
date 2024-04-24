@@ -1,7 +1,8 @@
 package guru.springframework.msscbreweryclient.web.model.client
 
+import guru.springframework.msscbreweryclient.web.client.BreweryCustomerClient
 import guru.springframework.msscbreweryclient.web.model.Customer
-import guru.springframework.msscbreweryclient.web.model.client.ClientsPath.Companion.API_CUSTOMER_V1_PATH
+import guru.springframework.msscbreweryclient.web.client.ClientsPath.Companion.API_CUSTOMER_V1_PATH
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired

@@ -1,7 +1,7 @@
-package guru.springframework.msscbreweryclient.web.model.client
+package guru.springframework.msscbreweryclient.web.client
 
 import guru.springframework.msscbreweryclient.web.model.Beer
-import guru.springframework.msscbreweryclient.web.model.client.ClientsPath.Companion.API_BEER_V1_PATH
+import guru.springframework.msscbreweryclient.web.client.ClientsPath.Companion.API_BEER_V1_PATH
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.boot.web.client.RestTemplateBuilder
 import org.springframework.stereotype.Component

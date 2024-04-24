@@ -1,4 +1,4 @@
-package guru.springframework.msscbreweryclient.web.model.client
+package guru.springframework.msscbreweryclient.web.client
 
 class ClientsPath {
     companion object {
