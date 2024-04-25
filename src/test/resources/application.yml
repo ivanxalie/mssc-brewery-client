@@ -1,3 +1,19 @@
 sfg:
   brewery:
     apiHost: http://localhost:8080
+  client:
+    socketTimeout: 3000
+    connectionTimeout: 3000
+    maxTotal: 100
+    defaultMaxPerRoute: 20
+
+logging:
+  level:
+    org.apache.http: debug
+
+http:
+  client:
+    socketTimeout: 3000
+    connectionRequestTimeout: 3000
+    maxTotalConnections: 100
+    defaultMaxTotalConnections: 20
